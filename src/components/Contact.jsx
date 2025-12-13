@@ -94,7 +94,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h5 style={{ fontWeight: 600 }}>Email Us</h5>
-                                <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>hello@bitymite.com</p>
+                                <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>BITYMITE@proton.me</p>
                             </div>
                         </div>
                     </motion.div>
