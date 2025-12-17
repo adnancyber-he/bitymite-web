@@ -9,7 +9,7 @@ const services = [
         shortDesc: "Scalable, high-performance web apps tailored to your business needs.",
         fullDesc: "We build world-class web applications using the latest technologies like React, Next.js, and Node.js. Our focus is on performance, accessibility, and user engagement, ensuring your digital presence stands out.",
         features: ["Responsive Design", "SEO Optimized", "CMS Integration", "Progressive Web App (PWA)"],
-        cost: "Starting at $2,500",
+        cost: "Starting at $100",
         time: "2-4 Weeks"
     },
     {
@@ -27,7 +27,7 @@ const services = [
         shortDesc: "Comprehensive security audits to identify and fix vulnerabilities.",
         fullDesc: "Protect your assets with our military-grade security assessments. We perform rigorous penetration testing and security audits to find weak points before attackers do.",
         features: ["Vulnerability Assessment", "Penetration Testing", "Security Reporting", "Remediation Support"],
-        cost: "Starting at $1,500",
+        cost: "Starting at $200",
         time: "1-2 Weeks"
     },
     {
@@ -36,7 +36,7 @@ const services = [
         shortDesc: "Proactive vulnerability assessment and penetration testing.",
         fullDesc: "Launch a managed bug bounty program or conduct specialized VAPT (Vulnerability Assessment and Penetration Testing) to continuously secure your platforms against evolving threats.",
         features: ["Managed Programs", "Real-time Reporting", "Ethical Hacking Team", "Zero-False Positives"],
-        cost: "Starting at $3,000",
+        cost: "Starting at $300",
         time: "Ongoing / Project"
     },
     {
@@ -45,7 +45,7 @@ const services = [
         shortDesc: "Robust, secure backend systems that power your digital infrastructure.",
         fullDesc: "Power your applications with high-performance, secure APIs. We design scalable microservices and backend architectures that handle high traffic loads with ease.",
         features: ["REST & GraphQL", "Database Design", "Authentication (OAuth/JWT)", "Cloud Deployment (AWS/Azure)"],
-        cost: "Starting at $2,000",
+        cost: "Starting at $200",
         time: "3-5 Weeks"
     },
     {
