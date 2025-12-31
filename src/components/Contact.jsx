@@ -18,13 +18,10 @@ const Contact = () => {
         e.preventDefault();
         setStatus('loading');
 
-        // INSTRUCTIONS:
-        // 1. Follow the guide in `backend/README.md` to deploy the Google Apps Script.
-        // 2. Paste the Web App URL below.
+        
         const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyA6iVPOQ0lKNKmO9D6ohOU8byRssRAm8kRCYI3_8XPBhorMTnjssiRkhsHHGh1PW140A/exec";
 
         if (SCRIPT_URL.includes("REPLACE")) {
-            // Fallback for demo if user hasn't set it up yet
             console.warn("Script URL not set. Simulating success.");
             await new Promise(resolve => setTimeout(resolve, 1500));
             setStatus('success');
@@ -34,9 +31,6 @@ const Contact = () => {
         }
 
         try {
-            // Use 'no-cors' mode for Google Apps Script
-            // Note: We won't get a specific JSON response in 'no-cors' mode, 
-            // but the request will go through if the URL is correct.
             await fetch(SCRIPT_URL, {
                 method: 'POST',
                 mode: 'no-cors',
@@ -58,7 +52,7 @@ const Contact = () => {
 
     return (
         <section id="contact" className="section" style={{ position: 'relative' }}>
-            {/* Background Gloam */}
+            {}
             <div style={{
                 position: 'absolute',
                 right: 0, bottom: 0,

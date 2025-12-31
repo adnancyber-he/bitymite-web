@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="footer-grid">
 
                     <div>
-                        <a href="#" className="logo" style={{ marginBottom: '1rem', display: 'block' }}>
+                        <a href="https://bitymite.netlify.app/" className="logo" style={{ marginBottom: '1rem', display: 'block' }}>
                             Bitymite<span style={{ color: 'var(--accent-cyan)' }}>.</span>
                         </a>
                         <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', lineHeight: '1.6' }}>
@@ -18,10 +18,10 @@ const Footer = () => {
                     <div>
                         <h4 className="footer-heading">Services</h4>
                         <ul className="footer-links">
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">Cybersecurity</a></li>
-                            <li><a href="#">Penetration Testing</a></li>
-                            <li><a href="#">API Solutions</a></li>
+                            <li><a href="#services">Web Development</a></li>
+                            <li><a href="#services">Cybersecurity</a></li>
+                            <li><a href="#services">Penetration Testing</a></li>
+                            <li><a href="#services">API Solutions</a></li>
                         </ul>
                     </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
                             <a href="#" className="social-icon"><Twitter size={20} /></a>
                             <a href="#" className="social-icon"><Linkedin size={20} /></a>
                             <a href="#" className="social-icon"><Github size={20} /></a>
-                            <a href="#" className="social-icon"><Mail size={20} /></a>
+                            <a href="mail:BITYMITE@gmail.com" className="social-icon"><Mail size={20} /></a>
                         </div>
                     </div>
                 </div>

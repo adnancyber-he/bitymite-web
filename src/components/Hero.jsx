@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="container">
                 <div className="hero-grid">
 
-                    {/* Text Content */}
+                    {}
                     <div className="hero-content">
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
@@ -57,14 +57,14 @@ const Hero = () => {
                         </motion.div>
                     </div>
 
-                    {/* Visual / Abstract Graphic */}
+                    {}
                     <motion.div
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8 }}
                         className="hero-visual"
                     >
-                        {/* Ambient Back Glow for Hero Graphic */}
+                        {}
                         <div style={{
                             position: 'absolute',
                             width: '100%',

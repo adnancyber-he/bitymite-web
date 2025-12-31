@@ -25,12 +25,12 @@ const Navbar = () => {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container">
                 <div className="navbar-content">
-                    {/* Logo */}
+                    {}
                     <a href="#" className="logo">
                         Bitymite<span style={{ color: 'var(--accent-cyan)' }}>.</span>
                     </a>
 
-                    {/* Desktop Links */}
+                    {}
                     <div className="nav-links">
                         {navLinks.map((link) => (
                             <a
@@ -50,7 +50,7 @@ const Navbar = () => {
                         </a>
                     </div>
 
-                    {/* Mobile Menu Button */}
+                    {}
                     <button
                         className="mobile-toggle"
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -60,7 +60,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            {/* Mobile Menu Overlay */}
+            {}
             <AnimatePresence>
                 {mobileMenuOpen && (
                     <motion.div

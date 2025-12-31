@@ -45,7 +45,11 @@ const services = [
         shortDesc: "Robust, secure backend systems that power your digital infrastructure.",
         fullDesc: "Power your applications with high-performance, secure APIs. We design scalable microservices and backend architectures that handle high traffic loads with ease.",
         features: ["REST & GraphQL", "Database Design", "Authentication (OAuth/JWT)", "Cloud Deployment (AWS/Azure)"],
+<<<<<<< HEAD
         cost: "Starting at $200",
+=======
+        cost: "Starting at $1,000",
+>>>>>>> c470ba6 (Updated website content and fixes)
         time: "3-5 Weeks"
     },
     {
@@ -128,7 +132,7 @@ const Services = () => {
                                 alignItems: 'center',
                                 justifyContent: 'center',
                                 padding: '20px',
-                                pointerEvents: 'none' // Allow clicks to pass through to backdrop for closing, re-enabled on card
+                                pointerEvents: 'none' 
                             }}
                         >
                             <motion.div
